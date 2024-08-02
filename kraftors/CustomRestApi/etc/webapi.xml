@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/wishlist" method="GET">
+        <service class="Kraftors\CustomRestApi\Api\WishlistManagementInterface" method="get"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <route url="/V1/wishlist" method="POST">
+        <service class="Kraftors\CustomRestApi\Api\WishlistManagementInterface" method="add"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <route url="/V1/wishlist/:itemId" method="DELETE">
+        <service class="Kraftors\CustomRestApi\Api\WishlistManagementInterface" method="delete"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+    <route url="/V1/wishlist/move" method="POST">
+        <service class="Kraftors\CustomRestApi\Api\WishlistManagementInterface" method="move"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+        <data>
+            <parameter name="customerId" force="true">%customer_id%</parameter>
+        </data>
+    </route>
+</routes>

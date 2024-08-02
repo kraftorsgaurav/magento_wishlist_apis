@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Kraftors\CustomRestApi\Api\WishlistManagementInterface" type="Kraftors\CustomRestApi\Model\WishlistManagement"/>
+    <preference for="Kraftors\CustomRestApi\Api\Data\RequestInterface" type="Kraftors\CustomRestApi\Model\Data\Request"/>
+    
+    <type name="Kraftors\CustomRestApi\Model\WishlistManagement">
+        <arguments>
+            <argument name="configurationPool" xsi:type="object">Magento\Catalog\Helper\Product\ConfigurationPool</argument>
+        </arguments>
+    </type>
+</config>

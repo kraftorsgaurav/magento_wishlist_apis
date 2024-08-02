@@ -1,0 +1,19 @@
+{
+    "name": "kraftors/custom-rest-api",
+    "description": "Wishlist APIs module",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kraftors\\CustomRestApi\\": ""
+        }
+    }
+}
+
