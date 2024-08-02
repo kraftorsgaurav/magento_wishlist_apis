@@ -11,8 +11,11 @@
         "files": [
             "registration.php"
         ],
+	"prefer-stable": true,
+	"repositories": [{"type": "vcs","url": "https://github.com/your-username/your-repo.git"}],
         "psr-4": {
             "Kraftors\\CustomRestApi\\": ""
+	
         }
     }
 }
