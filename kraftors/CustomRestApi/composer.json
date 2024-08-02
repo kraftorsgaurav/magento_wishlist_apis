@@ -12,7 +12,7 @@
             "registration.php"
         ],
 	"prefer-stable": true,
-	"repositories": [{"type": "vcs","url": "https://github.com/your-username/your-repo.git"}],
+	"repositories": [{"type": "vcs","url": "https://github.com/kraftorsgaurav/magento_wishlist_apis"}],
         "psr-4": {
             "Kraftors\\CustomRestApi\\": ""
 	
