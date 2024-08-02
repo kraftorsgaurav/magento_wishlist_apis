@@ -13,7 +13,7 @@
         ],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"repositories": [{"type": "vcs","url": "https://github.com/kraftorsgaurav/magento_wishlist_apis"}],
+	"repositories": [{"type": "vcs","url": "https://github.com/kraftorsgaurav/magento_wishlist_apis.git"}],
         "psr-4": {
             "Kraftors\\CustomRestApi\\": ""
 	
