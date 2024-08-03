@@ -8,20 +8,19 @@
     ],
     "version": "1.0.0",
     "autoload": {
-        "files": [
-            "registration.php"
-        ],
         "psr-4": {
-            "Kraftors\\CustomRestApi\\":"kraftors/CustomRestApi/"
+            "Kraftors\\CustomRestApi\\": "kraftors/CustomRestApi/"
         }
     },
     "minimum-stability": "dev",
-	"prefer-stable": true,
-	"repositories": [
+    "prefer-stable": true,
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis.git"
         }
-    ]
+    ],
+    "require": {
+        "kraftors/customrestapi": "dev-main"
+    }
 }
-
