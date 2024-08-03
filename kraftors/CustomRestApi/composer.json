@@ -18,7 +18,7 @@
     "minimum-stability": "stable",
 	"prefer-stable": true,
 	"repositories": [{
-        "type": "vcs",
+        "type": "composer",
         "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis.git"
     }]
 }
