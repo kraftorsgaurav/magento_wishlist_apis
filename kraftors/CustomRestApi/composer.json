@@ -19,7 +19,7 @@
 	"prefer-stable": true,
 	"repositories": [{
         "type": "vcs",
-        "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis/kraftors/CustomRestApi"
+        "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis/tree/main/kraftors/CustomRestApi"
     }]
 }
 
