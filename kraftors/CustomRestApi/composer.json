@@ -1,5 +1,5 @@
 {
-    "name": "kraftors/customrestapi",
+    "name": "kraftors/custom-rest-api",
     "description": "Wishlist APIs module",
     "type": "magento2-module",
     "license": [
@@ -11,16 +11,15 @@
         "files": [
             "registration.php"
         ],
-	"minimum-stability": "stable",
+        "psr-4": {
+            "Kraftors\\CustomRestApi\\": ""
+        }
+    },
+    "minimum-stability": "stable",
 	"prefer-stable": true,
 	"repositories": [{
         "type": "vcs",
         "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis.git"
-    }],
-        "psr-4": {
-            "Kraftors\\CustomRestApi\\": ""
-	
-        }
-    }
+    }]
 }
 
