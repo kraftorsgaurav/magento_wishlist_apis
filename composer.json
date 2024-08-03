@@ -1,0 +1,23 @@
+{
+    "name": "kraftors/customrestapi",
+    "description": "Wishlist APIs module",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Kraftors\\CustomRestApi\\": "kraftors/CustomRestApi/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kraftorsgaurav/magento_wishlist_apis.git"
+        }
+    ]
+}
