@@ -12,7 +12,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Kraftors\\CustomRestApi\\": "src/"
+            "Kraftors\\CustomRestApi\\": "kraftors/CustomRestApi/"
         }
     },
     "minimum-stability": "dev",
