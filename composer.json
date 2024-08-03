@@ -6,12 +6,12 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Kraftors\\CustomRestApi\\": "kraftors/CustomRestApi/"
+            "Kraftors\\CustomRestApi\\":"kraftors/CustomRestApi/"
         }
     },
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
