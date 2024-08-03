@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kraftors\\CustomRestApi\\":"kraftors/CustomRestApi/"
+            "Kraftors\\CustomRestApi\\":""
         }
     },
     "version": "1.0.0",
