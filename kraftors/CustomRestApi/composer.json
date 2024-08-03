@@ -11,7 +11,7 @@
         "files": [
             "registration.php"
         ],
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"prefer-stable": true,
 	"repositories": [{
         "type": "vcs",
